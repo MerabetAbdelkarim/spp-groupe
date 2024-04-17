@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="94.073" height="94.074" viewBox="0 0 94.073 94.074">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fcfcfc"/>
+      <stop offset="1" stop-color="#ddd"/>
+      <stop offset="1" stop-color="gray"/>
+    </linearGradient>
+    <filter id="Tracé_23" x="0" y="0" width="94.073" height="94.074" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fcfcfc"/>
+      <stop offset="1" stop-color="#a8a8a8"/>
+      <stop offset="1" stop-color="gray"/>
+    </linearGradient>
+  </defs>
+  <g id="Groupe_2658" data-name="Groupe 2658" transform="translate(-62.874 5)">
+    <g transform="matrix(1, 0, 0, 1, 62.87, -5)" filter="url(#Tracé_23)">
+      <path id="Tracé_23-2" data-name="Tracé 23" d="M127.971,0a32.037,32.037,0,1,0,32.037,32.037A32.072,32.072,0,0,0,127.971,0m14.7,37.1c0,5.067-5.069,5.067-5.069,5.067H118.333c-5.066,0-5.066-5.067-5.066-5.067V26.586c0-5.068,5.066-5.068,5.066-5.068h19.273c5.069,0,5.069,5.068,5.069,5.068Z" transform="translate(-80.93 5)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="Tracé_24" data-name="Tracé 24" d="M130.575,43.588l9.627-5.655-9.627-5.656Z" transform="translate(-24.581 -6.076)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

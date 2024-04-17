@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .solution_items::after {
+        content: '';
+        background-image: url('../images/footer-arrow.svg');
+        width: 25px;
+        height: 25px;
+        display: block;
+        position: absolute;
+        left: -8px;
+    }
+    .our-products_items::after {
+        content: '';
+        background-image: url('../images/right-arrow.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 25px;
+        height: 25px;
+        display: block;
+        position: absolute;
+        right: 0;
+    }
+    .documentation_items::after {
+        content: '';
+        background-image: url('../images/doc-hex.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+        display: block;
+        position: absolute;
+        right: -50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .features_items {
+        background-image: url('../images/doc-hex2.svg');
+    }
+    .features_items-hero {
+        background-image: url('../images/fab-blue.svg');
+    }
+    .swiper-button-next {
+        background-image: url(../images/next-arrow.svg);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: center;
+        height: 145px;
+        width: 145px;
+    }
+    .swiper-button-next::after {
+        display: none;
+    }
+    .swiper-button-prev {
+        background-image: url(../images/prev-arrow.svg);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: center;
+    }
+    .swiper-button-prev::after {
+        display: none;
+    }
+    .solution-hex::after{
+        content: '';
+        background-image: url('../images/sol-pro.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+        display: block;
+        position: absolute;
+        right: -60%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    
+}
